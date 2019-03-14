@@ -4,6 +4,7 @@
     <list default="true" id="b31d47cc-6500-4c8b-b039-72646e37e799" name="Default" comment="Remove publisher as string and replace with Publisher object">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/spring5webapp/model/Publisher.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring/spring5webapp/repositories/PublisherRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/spring/spring5webapp/model/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring/spring5webapp/model/Book.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -495,12 +496,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552509454984</updated>
       <workItem from="1552509456391" duration="7054000" />
-      <workItem from="1552522608349" duration="1559000" />
+      <workItem from="1552522608349" duration="1826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8613000" />
+    <option name="totallyTimeSpent" value="8880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

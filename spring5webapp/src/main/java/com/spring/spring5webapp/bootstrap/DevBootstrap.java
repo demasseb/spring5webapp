@@ -33,6 +33,8 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         Publisher publisher = new Publisher();
         publisher.setName("foo");
 
+        publisherRepository.save(publisher);
+
         //Author Eric
         Author eric = new Author("Eric", "Evans");
 
@@ -44,7 +46,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         bookRepository.save(ddd);
 
         Author rod = new Author("Rod", "Johnson");
-        Book noEjb = new Book("Java Development without EJB", "23444", publisher);
+        Book noEjb = new Book("Java Development without EJB", "23444",  publisher);
         rod.getBooks().add(noEjb);
 
         authorRepository.save(rod);
